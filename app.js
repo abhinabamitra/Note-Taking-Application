@@ -8,8 +8,10 @@ const sum = addition(12,-8)
 
 console.log(sum)
 */
-
+const validator = require('validator')
 const getNotes = require('./notes.js')
-const op = getNotes()
 
+const op = getNotes()
 console.log(op)
+
+console.log(validator.isEmail('abhinabamitra19@gmail.com'))

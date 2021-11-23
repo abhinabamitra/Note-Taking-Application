@@ -1,0 +1,22 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "First simple Node JS application onhow to build a note taking app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhinabamitra/Note-Taking-Application.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhinabamitra/Note-Taking-Application/issues"
+  },
+  "homepage": "https://github.com/abhinabamitra/Note-Taking-Application#readme",
+  "dependencies": {
+    "validator": "^10.8.0"
+  }
+}
