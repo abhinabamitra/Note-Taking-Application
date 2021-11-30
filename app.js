@@ -1,8 +1,7 @@
-const validator = require('validator')
 const chalk = require('chalk')
 const yargs = require('yargs')
 const getNotes = require('./notes.js')
-const { demandOption, string } = require('yargs')
+//const { demandOption } = require('yargs')
 
 //const command = process.argv
 //console.log(command)
@@ -25,7 +24,7 @@ yargs.command({
         body:{
             describe:'The body of the note',
             demandOption: true,
-            type: string
+            type: 'string'
         }
     },
     handler: function(argv){
