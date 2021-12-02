@@ -37,7 +37,20 @@ const loadNotes = function(){
     }
 }
 
+const removenotes = function(title){
+    /*const notes = loadNotes()
+    const noteexist = notes.filter(function(note){
+        return note.title === title
+    })
+
+    if(noteexist.length===1){
+
+    }*/
+    console.log("OTW to remove your note!")
+}
+
 module.exports = {
     getNotes: getNotes,
-    addnotes: addnotes
+    addnotes: addnotes,
+    removenotes: removenotes
 }
